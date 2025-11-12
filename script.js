@@ -51,7 +51,8 @@ function detectKeyword(text) {
     return 'minute';
   if (t.includes('ইন্টারনেট') || t.includes('internet') || t.includes('net'))
     return 'internet';
-  if (t.includes('sms') || t.includes('এসএমএস')) return 'sms';
+  if (t.includes('sms') || t.includes('এসএমএস') || t.includes('message'))
+    return 'sms';
   return null;
 }
 

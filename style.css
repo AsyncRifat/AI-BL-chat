@@ -64,21 +64,6 @@ body {
   animation-delay: 0.5s;
 }
 
-/* @keyframes text-animation {
-  from {
-    transform: scale(0.9);
-  }
-  to {
-    transform: scale(1);
-  }
-} */
-
-/* .user-msg {
-  background: #e5e5e5;
-  color: #333;
-  align-self: flex-end;
-} */
-
 .user-msg {
   position: relative;
   background: #e5e5e5;
